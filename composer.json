@@ -1,0 +1,31 @@
+{
+    "name": "prima-ca/laravel-migration-column-exists"
+    "description": "addColumnUnlessExists, dropColumnIfExists",
+    "keywords": [
+        "laravel",
+        "model",
+        "column",
+        "blueprint"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cyrus\\Blueprint\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cyrus\\Blueprint\\ColumnExistsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
